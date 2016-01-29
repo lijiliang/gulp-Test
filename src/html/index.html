@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    @@include("./_common/head.html",{ 
+	    "title": "btn按钮", 
+	    "description": "描述",
+	    "keywords": "关键字", 
+	    "css":"common" 
+    })
+</head>
+<body>
+   <header class="nav-bar">
+	   	<a href="javascript:history.go(-1);" class="top-back"></a>
+	   	<h1 class="bar-title">按钮</h1>
+   </header>
+	<div class="container"> 
+		<div class="mod-item mod-button">
+			<div class="conent-block">
+				<a href="" class="button">立即注册</a>
+				<a href="" class="button button-white">已有帐号，请登录</a>
+				<a href="" class="button button-noborder">资金明细</a> 
+			</div>
+		</div>
+	</div>
+    @@include("./_common/foot.html",{ 
+	    "js":"sb.corelibs,sb", 
+	    "js_piwik":"piwik" 
+    })
+</body>
+</html>

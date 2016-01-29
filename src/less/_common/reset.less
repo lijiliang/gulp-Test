@@ -1,0 +1,81 @@
+/*------------------------------------------------
+@Filename:  reset.less
+@Description:   全局重置代码
+@Version:   1.0.0(2016-1-25)
+@author:    LJL
+@updatatime:
+------------------------------------------------*/
+@charset"utf-8";
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+    margin:0;padding:0;
+}
+//* HTML5 display-role reset for older browsers *//
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body,button,input,select,textarea{
+    font:12px/1.5 'Microsoft YaHei',tahoma,arial,'Hiragino Sans GB',~'\5b8b\4f53',sans-serif;
+}
+html,body{
+    background: #fff;
+}
+h1,h2,h3,h4,h5,h6{ 
+    font-size:100%;
+}
+address,cite,dfn,em,var,code,kbd,pre,samp{
+    font-style:normal;
+}
+small{
+    font-size:12px;
+}
+ol,ul{
+    list-style:none;
+}
+sup{
+    vertical-align:text-top;
+}
+sub{
+    vertical-align:text-bottom;
+}
+fieldset,img{
+    border:0;
+}
+button,input,select,textarea{
+    font-size:100%;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+a {
+  cursor: pointer;
+}
+a, a:active, a:focus, input{
+    outline:none;
+}
+a, a:active, a:focus{
+    color:@link-color; 
+    text-decoration:none;
+}
+a:hover{
+    color:#ff6060;
+    text-decoration:none;
+}
+//清除浮动
+.clearfix,.container{
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+input,textarea{-webkit-appearance: none;}  //去除input和textarea添加了内部阴影
+.hidden {
+    display: none!important;
+    visibility: hidden!important
+}

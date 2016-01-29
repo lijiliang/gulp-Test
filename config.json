@@ -1,0 +1,25 @@
+{
+    "paths": {
+        "src": "src",
+        "debug": "debug",
+        "dist": "dist",
+        "map": "dist/map"
+    },
+    "viewPath": "../../shenba/m.shenba.com/",
+    "coreJs": {
+        "mods": [
+            "Zepto",
+            "template",
+            "smcore"
+        ],
+        "name": "corelibs"
+    },
+    "fontExt":["eot","svg","ttf","woff"],
+    "prefix": "sb",
+    "hashLen": 10,
+    "cdnDomain": "mstatics.shenba.com",
+    "version": "2.0.4",
+    "openBrower": true,
+    "host": "localhost",
+    "port": "8809"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bdCore",
+  "version": "0.3.0",
+  "author": {
+    "name": "lmtdit",
+    "url": "https://github.com/lmtdit/bdCore"
+  },
+  "description": "bdCore is a front-end automation construction framework based on gulpJS.",
+  "scripts": {
+    "test": "gulp init"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "gulp": "3.9.0",
+    "gulp-util": "^3.0.7",
+    "vbuilder": "^2.0.6"
+  }
+}
